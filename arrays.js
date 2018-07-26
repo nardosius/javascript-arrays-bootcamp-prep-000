@@ -15,7 +15,9 @@ function addElementToEndOfArray() {
   
 }
 
-funtion 
+function destructivelyAddElementToEndOfArray() {
+  
+}
 
 var names = ["Sheila", "Susan", "Bob", "Buddy"];
 var index = 1;
