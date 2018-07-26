@@ -8,6 +8,7 @@ function addElementToBeginningOfArray(chocolateBars, element1) {
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, element1) {
   chocolateBars.unshift(element1);
+  return chocolateBars;
 }
 
 var names = ["Sheila", "Susan", "Bob", "Buddy"];
