@@ -3,6 +3,7 @@ var element1 = "almondjoy";
 
 function addElementToBeginningOfArray(chocolateBars, element1) {
   var narray = [element1, ...chocolateBars];
+  return narray;
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, element1) {
