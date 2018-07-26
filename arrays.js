@@ -11,6 +11,12 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element1) {
   return chocolateBars;
 }
 
+function addElementToEndOfArray() {
+  
+}
+
+funtion 
+
 var names = ["Sheila", "Susan", "Bob", "Buddy"];
 var index = 1;
 function accessElementInArray(names, index) {
