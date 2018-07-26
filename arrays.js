@@ -30,6 +30,7 @@ function accessElementInArray(names, index) {
 var stuff = ["thing1, thing2", "thing3", "thing4","thing5"];
 function destructivelyRemoveElementFromBeginningOfArray(stuff) {
   stuff.shift();
+  return stuff;
 }
 
 var cats = ["Milo", "Garfield", "Otis"];
