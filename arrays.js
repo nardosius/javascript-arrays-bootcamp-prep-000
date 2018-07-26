@@ -41,7 +41,7 @@ function removeElementFromBeginningOfArray(cats) {
 
 var iceCreams = ["chocolate", "vanilla", "raspberry"];
 function destructivelyRemoveElementFromEndOfArray(iceCreams) {
-  iceCreams.slice(-1);
+ iceCreams = iceCreams.slice(-1);
   return iceCreams;
 }
 
