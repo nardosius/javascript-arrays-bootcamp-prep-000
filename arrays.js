@@ -41,10 +41,10 @@ function removeElementFromBeginningOfArray(cats) {
 
 var iceCreams = ["chocolate", "vanilla", "raspberry"];
 function destructivelyRemoveElementFromEndOfArray(iceCreams) {
- iceCreams = iceCreams.slice(-1);
-  return iceCreams;
+ 
 }
 
 function removeElementFromEndOfArray() {
-  return iceCreams.slice(0, iceCreams.length - 1);
+  iceCreams = iceCreams.slice(-1);
+  return iceCreams;
 }
