@@ -46,6 +46,6 @@ function destructivelyRemoveElementFromEndOfArray(iceCreams) {
 }
 
 function removeElementFromEndOfArray(iceCreams) {
-  iceCreams.slice(-1);
+  iceCreams.slice(0, iceCreams.length - 1);
   return iceCreams;
 }
