@@ -35,7 +35,7 @@ function destructivelyRemoveElementFromBeginningOfArray(stuff) {
 
 var cats = ["Milo", "Garfield", "Otis"];
 function removeElementFromBeginningOfArray(cats) {
-  cats.slice(1);//slice removes element located before specified index
+  cats.slice(0);//slice removes element located before specified index
   return cats;
 }
 
